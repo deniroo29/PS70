@@ -18,7 +18,7 @@ p {
 .margin {margin-bottom: 30px;}
 
 a {
-  color: #2106be;
+  color: #5e41fd;
 }
 
 .container-fluid {
@@ -45,7 +45,6 @@ nav {
 }
 
 .nav-link {
-  border: 3px outset #3e0f3e;
   border-radius: 10px;
   padding: 10px 30px;
   background-color: #733175;
@@ -54,7 +53,6 @@ nav {
 }
 
 .nav-link:hover {
-  border: 3px outset #cd51ba;
   border-radius: 10px;
   padding: 10px 30px;
   background-color: #8c3e8f;
