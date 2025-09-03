@@ -128,12 +128,41 @@ img {
   height: auto;
 }
 
+.image-link-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.image-link-container img {
+  border-radius: 10px;
+  margin-bottom: 18px; /* space between image and link */
+}
+
+.image-link-container a {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 17px;
+  color: #5e41fd;
+  text-align: center;
+  display: block;
+}
+
 ul {
   margin-top: 30px;
   margin-bottom: 50px;
+  padding-left: 25px;
 }
 
 li {
+  margin-bottom: 30px;
+  line-height: 1.7;
+}
+
+.center-row {
+  gap: 40px;
   margin-bottom: 30px;
 }
 
@@ -143,4 +172,6 @@ iframe {
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.3);
 }
