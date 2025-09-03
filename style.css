@@ -80,9 +80,11 @@ nav {
   margin: auto auto;
 }
 
-.flexrow {
+.center-row {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center; /* Vertically center image and text */
+  gap: 20px;
 }
 
 .center-row {
@@ -146,7 +148,13 @@ img {
   color: #5e41fd;
   text-align: center;
   display: block;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  /* override Bootstrap */
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 ul {
