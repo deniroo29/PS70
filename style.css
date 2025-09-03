@@ -152,7 +152,6 @@ img {
   width: 100%;
   justify-content: center;
   align-items: center;
-  /* override Bootstrap */
   margin-left: auto !important;
   margin-right: auto !important;
 }
