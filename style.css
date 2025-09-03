@@ -2,7 +2,7 @@ body {
     font: 20px "Gill Sans", Verdana, sans-serif;
     line-height: 1.8;
     color: #000000;
-    background-color: #dcdcdc;
+    background-color: #0d0918;
     padding-top: 0px !important;
   }
 
@@ -14,7 +14,7 @@ p {font-size: 16px;}
 .margin {margin-bottom: 30px;}
 
 a {
-  color: #000000;
+  color: #2106be;
 }
 
 .container-fluid {
@@ -23,7 +23,7 @@ a {
 }
 
 nav {
-  background-color: #dcdcdc;
+  background-color: #161132;
   color: #EEE7E8;
   padding: 50px 0px;
 }
