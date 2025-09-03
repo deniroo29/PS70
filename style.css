@@ -138,16 +138,15 @@ img {
 
 .image-link-container img {
   border-radius: 10px;
-  margin-bottom: 18px; /* space between image and link */
+  margin-bottom: 15px; /* space between image and link */
 }
 
 .image-link-container a {
-  margin-left: auto;
-  margin-right: auto;
   font-size: 17px;
   color: #5e41fd;
   text-align: center;
   display: block;
+  margin-bottom: 15px;
 }
 
 ul {
